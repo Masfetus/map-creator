@@ -27,7 +27,13 @@ namespace Interface
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-          
+            for (int line = 0; line < 10; line++)
+                for (int column = 0; column < 10; column++)
+                {
+                    Rectangle new_rect = new Rectangle();
+                    new_rect.Name = String.Format("case_{0}_{1}", line, column);
+                    grid_plat.Children.Add(new_rect);
+                }
         }
     }
 }

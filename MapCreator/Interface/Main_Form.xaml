@@ -32,31 +32,35 @@
                 <GradientStop Color="#FF9DA7EA" Offset="0.037"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="375" Margin="57,36,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="370" Background="White" ScrollViewer.VerticalScrollBarVisibility="Auto" UseLayoutRounding="False" ShowGridLines="True">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Height="375" Margin="57,36,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="370" ScrollViewer.VerticalScrollBarVisibility="Auto" UseLayoutRounding="False">
+            <Grid Name="grid_plat" ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Border>
+        <StackPanel HorizontalAlignment="Center" Height="82"  VerticalAlignment="Center" Width="249"/>
+
     </Grid>
 </Window>
